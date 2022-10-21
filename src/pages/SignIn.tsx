@@ -1,13 +1,14 @@
-import '../styles/global.css'
+import 'styles/global.css'
 
 import { Envelope, Lock } from 'phosphor-react'
-import { Logo } from '../Assets/Logo'
+import { Logo } from 'Assets/Logo'
 
-import { Heading } from '../components/Heading/Heading'
-import { Text } from '../components/Text/Text'
-import { TextInput } from '../components/TextInput/TextInput'
-import { Checkbox } from '../components/Checkbox/Checkbox'
-import { Button } from '../components/Button/Button'
+import {
+  Button,
+  Checkbox,
+  Heading,
+  Text,
+  TextInput } from 'components'
 
 export function SignIn() {
   return (
